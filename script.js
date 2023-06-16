@@ -2,9 +2,10 @@
 
 function palindrome(str){
   let s="";
-	for(let i=0;i<str.length;i++){
-		  if(str[i]!=' '){
-			  s=s+str[i];
+	let strs=str.toLowerCase();
+	for(let i=0;i<strs.length;i++){
+		  if(strs[i]!=' '){
+			  s=s+strs[i];
 		  }
 	} let i=0; 
 	let r=s.length-1;
