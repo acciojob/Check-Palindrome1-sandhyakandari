@@ -9,7 +9,7 @@ function palindrome(str){
 	} let i=0; 
 	let r=s.length-1;
 	while(i<r){
-		if(s[i]!=s[r]){
+		if(s[i]!==s[r]){
 			return false;
 		}
 		i++; 
